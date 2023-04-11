@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perimeter and Area of Right Triangle</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'uz,ru,ko,ja,zh-CN,zh-TW,es,la,fr,tr',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+</head>
+
+<body>
+    <div id="google_translate_element"></div>
+    <div class="container">
+        <div class="card">
+            <div class="box">
+                <center> a <input type="number" id="leg-a">
+                    b <input type="number" id="leg-b">
+                    c <input type="number" id="hyp-c">
+                    <hr /> <button onclick="getResult()">Calculate</button> </center>
+                <hr />
+                <div class="results">
+                    <h3>Area: S=</h3>
+                    <h3 id="res-s"></h3>
+                </div>
+                <div class="results">
+                    <h3>Perimeter: P=</h3>
+                    <h3 id="res-p"></h3>
+                </div> <img src="./right-triangle.png" alt="right-triangle" width="75">
+                <hr />
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+</body>
+
+</html>
